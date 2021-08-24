@@ -12,7 +12,7 @@
 
 
 
-<body>
+<body class>
 
     <nav>
         <a class="burger-btn" href="#">
@@ -22,9 +22,9 @@
         </a>
         <div class="nav-list">
             <ul>
-                <li><a class="nav_btns">ABOUT ME</a></li>
-                <li><a class="nav_btns">PROJECTS</a></li>
-                <li><a class="nav_btns">CONTACT ME</a></li>
+                <li><a id="ab" href="#" class="nav_btns">ABOUT ME</a></li>
+                <li><a id="proj" href="#project" class="nav_btns">PROJECTS</a></li>
+                <li><a id="cont" href="#contact" class="nav_btns">CONTACT ME</a></li>
             </ul>
 
 
@@ -35,7 +35,7 @@
         <section class="about-me-sec">
             <h1 class="main-head">Hello, I'm <span class="col-black">Dev</span>, I'm a Developer and UI Designer</h1>
             <div class="vertical-center horizontal-center">
-                <div class="circle">
+                <div class="circle" data-aos="zoom-in" data-aos-offset="500px">
                     <img class="img" src="Images/dev.png" alt="dev.png">
                 </div>
             </div>
@@ -62,7 +62,7 @@
                 <h1 class="main-head" data-aos="fade-down">About <span class="col-blue">Me</spa>
                 </h1>
                 <div>
-                    <card class="card" data-aos="fade-up">
+                    <card class="card" data-aos="flip-up">
                         <p class="para-text">I'm 21 years old, doing IMCA in SCMS college of technology and management
                             (4th year). I started programming at a very young age and now it is my passion. Besides
                             programming, I'm also a PC builder and also does photography and video editing as a hobby.
@@ -84,7 +84,7 @@
                             your
                             requirement. I use android studio (java) to develop applications.</p>
                     </card>
-                    <card class="card" data-aos="fade-up">
+                    <card class="card" data-aos="fade-right">
                         <div class="circle">
                             <img class="img" src="/Images/windows.svg">
                         </div>
@@ -93,7 +93,7 @@
                             that will
                             work on most Windows computers running Windows 7 and up.</p>
                     </card>
-                    <card class="card" data-aos="fade-right">
+                    <card class="card" data-aos="fade-left">
                         <div class="circle">
                             <img class="img" src="/Images/UI.svg">
                         </div>
@@ -105,23 +105,21 @@
                 </div>
             </section>
 
-            <section class="project-sec">
+            <section class="project-sec" id="project">
                 <h1 class="main-head" data-aos="fade-down">My Awesome <br><span class="col-blue">Creations</span></h1>
                 <div>
-                    <card class="card " data-aos="fade-left">
+                    <card class="card " data-aos="zoom-in">
                         <img class="img" src="/Images/reflect.png">
                         <p class="sub-heading">REFLECT</p>
-                        <p class="para-text">Reflect is game with simple concept but lot of physics. In this your main
-                            objective
-                            is to make the ball reach to the top by overcoming obstacles which gets more challenging as
-                            you
-                            progress on the game.</p>
+                        <p class="para-text">Reflect is a game with a simple concept but a lot of physics. In this, your
+                            main objective is to make the ball reach the top by overcoming obstacles which gets more
+                            challenging as you progress on the game.</p>
 
                         <a href="https://play.google.com/store/apps/details?id=com.atomproductions.reflect"><Button
                                 class="card-btn">TRY IT NOW</Button></a>
 
                     </card>
-                    <card class="card" data-aos="fade-up">
+                    <card class="card" data-aos="zoom-in">
 
                         <img class="img" src="/Images/perf.png">
                         <p class="sub-heading">PERFORMANCE TOOLS</p>
@@ -135,7 +133,7 @@
                                 GITHUB</Button></a>
 
                     </card>
-                    <card class="card" data-aos="fade-right">
+                    <card class="card" data-aos="zoom-in">
 
 
                         <img class="img" src="/Images/safelog.png">
@@ -165,9 +163,9 @@
                     class="shape-fill"></path>
             </svg>
         </div>
-        <section class="contact-me-sec">
-            <h1 class="main-head">Connect With Me!</h1>
-            <div class="email">
+        <section class="contact-me-sec" id="contact">
+            <h1 class="main-head" data-aos="flip-up">Connect With Me!</h1>
+            <div class="email" data-aos="zoom-in">
                 <img class="img" src="/Images/email.svg">
                 <div>
                     <p class="para-text">devanaswinikumar8@gmail.com</p>
@@ -176,7 +174,7 @@
 
             </div>
 
-            <div class="email">
+            <div class="email" data-aos="zoom-in">
                 <img class="img" src="/Images/phone.svg">
                 <div>
                     <p class="para-text">+919074757442</p>

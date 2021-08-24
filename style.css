@@ -61,6 +61,8 @@ nav{
     margin-right: 1vw;
     font-size: 20px;
     cursor: pointer;
+    text-decoration: none;
+    color: white;
 }
 
 .nav-list{
@@ -113,6 +115,7 @@ nav{
 }
 .nav_btns:hover{
     color: black;
+
 }
 
 .about-me-sec{
@@ -187,6 +190,7 @@ nav{
 
 .project-sec{
     padding-top: 30px;
+    margin-top: -5px;
     background-color: black;
 }
 
@@ -528,6 +532,10 @@ nav{
        
     }
 
+    .project-sec{
+        margin-top: 5px;
+      }
+
 }
 
 @media only screen and (max-width: 1200px)
@@ -605,6 +613,10 @@ nav{
         margin-bottom: 30px;
         font-size: 18px;
     }
+
+  .project-sec{
+    margin-top: 5px;
+  }
 
  
    
