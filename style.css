@@ -1,0 +1,606 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+#unfloated-container{
+    width: 1000px;
+}
+body{
+    font-family: 'Hammersmith One', sans-serif;
+    background-color: black;
+}
+
+
+nav{
+
+    background-color: #005CF8;
+    height: 8vh;
+     color: white;
+     margin: 0;
+     display: flex;
+     justify-content:flex-end;
+     align-items: center;
+    position:fixed;
+    padding:  50px,10px;
+    width: 100%;
+    z-index: 9999
+   
+     
+}
+
+.main-sec{
+    padding-top: 50px;
+}
+
+.aleft{
+    text-align: end;
+}
+
+.vertical-center{
+    display: flex;
+    align-items: center;
+}
+
+.horizontal-center{
+    display: flex;
+    justify-content: center;
+}
+.horizontal-end{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.nav_btns{
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nav-list{
+    margin: 0;
+    padding: 0;
+    
+}
+.nav-list ul{
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav-list li{
+    list-style: none;
+}
+
+.burger-btn{
+    position:absolute;
+    top: 0.75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.burger-btn .bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.contact-btn{
+    font-family: 'Hammersmith One', sans-serif;
+    background-color: black;
+    color: white;
+    border-style: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.contact-btn:hover{
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+.nav_btns:hover{
+    color: black;
+}
+
+.about-me-sec{
+    background-color: #005CF8;
+}
+
+.main-head{
+    margin: 0;
+    color: white;
+    font-weight: 400;
+    font-size: 64px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 250px;
+    border-width: 7px;
+    margin-bottom: 50px;
+}
+.img{
+    height: 490px;
+    width: 490px;
+}
+
+.wav1 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wav1 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 200px;
+}
+
+.wav1 .shape-fill {
+    fill: #005CF8;
+}
+.col-black{
+    color: black;
+}
+
+.col-blue{
+    color: #005CF8;
+}
+
+.card-class{
+  
+}
+
+.service-sec{
+    padding-top: 30px;
+    background-color: black;
+}
+
+.project-sec{
+    padding-top: 30px;
+    background-color: black;
+}
+
+.card{
+    margin: 20px 80px;
+    padding: 15px 15px;
+    background-color: #252525;
+    border-style: none;
+    border-radius: 20px;
+    height: 450px;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sub-heading{
+    font-size: 26px;
+    color: white;
+    text-align: center;
+}
+
+.para-text{
+    font-size: 20px;
+    color: white;
+    text-align: distribute;
+    line-height: 35px;
+}
+
+.service-sec div{
+    display: flex;
+    justify-content: center;
+}
+.project-sec div{
+    display: flex;
+    justify-content: center;
+}
+
+.service-sec .circle{
+    width: 100px;
+    margin-bottom: 10px;
+    height: 100px;
+    display: flex;
+    background-color: rgb(24, 24, 24);
+    border-color: rgb(24, 24, 24);
+    justify-content: center;
+    align-items: center;
+}
+.project-sec .circle{
+    width: 100px;
+    margin-bottom: 10px;
+    height: 100px;
+    display: flex;
+    background-color: rgb(24, 24, 24);
+    border-color: rgb(24, 24, 24);
+    justify-content: center;
+    align-items: center;
+}
+
+.service-sec .circle .img{
+    padding: 5px;
+    width: 70px;
+    height: 70px;
+}
+
+.project-sec .card .img{
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+
+}
+
+.project-sec .card{
+    height: 580px;
+    margin: 20px 40px;
+}
+
+.project-sec .circle .img{
+    padding: 5px;
+    width: 70px;
+    height: 70px;
+}
+
+.card .sub-heading{
+    margin-bottom: 30px;
+}
+
+.card-btn{
+    background-color:rgb(24, 24, 24);
+    color: white;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 24px;
+    border-color: white;
+    border-style: solid;
+    border-width: 4px;
+    margin-top: 30px;
+    padding: 10px 50px;
+    transition: 0.3s ease-in-out;
+    align-self: flex-end;
+
+}
+
+.card-btn:hover{
+    background-color: white;
+    color: rgb(24, 24, 24);
+}
+
+
+.wav2 {
+   transform: rotate(180deg);
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wav2 svg {
+    position: relative;
+    display: block;
+    width: calc(122% + 1.3px);
+    height: 186px;
+}
+
+.wav2 .shape-fill {
+    fill: #005CF8;
+}
+.contact-me-sec{
+    background-color: #005CF8;
+    padding-bottom: 30px;
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+   
+   
+}
+.email div{
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+   
+}
+
+.email div .para-text{
+    color: black;
+    font-size: 15px;
+    padding: 0px 10px;
+}
+.email  .img{
+    width: 30px;
+    height: 30px;
+    margin: 0px 20px;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+}
+.social img{
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+
+}
+.contact-me-sec .sub-heading{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.pointer
+{
+    cursor:pointer;
+}
+
+
+
+@media only screen and (max-width: 500px)
+{
+     .circle{
+         width: 250px;
+         height: 250px;
+     }
+
+     .img{
+        width: 240px;
+        height: 240px;
+     }
+     .main-head{
+         font-size: 24px;
+     }
+     .wav1 svg{
+         height: 60px;
+     } 
+
+     .burger-btn{
+         display: flex;
+     }
+     .nav-list{
+         display: none;
+     }
+     nav{
+         flex-direction: column;
+          align-items: flex-start;
+          height: fit-content;
+          min-height: 50px;
+          position:fixed;
+     }
+     .nav-list{
+         flex-direction: column;
+         width: 100%;
+         transition: background 1s;
+
+
+     }
+     .nav-list ul{
+         width: 100%;
+         flex-direction: column;
+         align-items: center;
+         padding: 0;
+         padding-top: 20px;
+     }
+     .nav-list li{
+         font-size: 10px;
+         width: 100%;
+         text-align: center;
+         padding: 10px 5px;
+     }
+  
+     .nav-list.active{
+         display: flex;
+         background-color: black;
+     }
+
+     .service-sec div{
+        
+       flex-direction: column;
+    }
+    .project-sec div{
+        
+        flex-direction: column;
+     }
+    .service-sec .main-head{
+        font-size: 48px;
+    }
+
+    .project-sec .main-head{
+        font-size: 48px;
+    }
+    .para-text{
+        font-size: 15px;
+    }
+
+    .service-sec .sub-heading{
+        font-size: 20px;
+    }
+
+    .project-sec .sub-heading{
+        font-size: 20px;
+
+    }
+
+    .card{
+        width: auto;
+        height:350px ;
+        margin: 20px 20px;
+    }
+
+    .project-sec .card{
+        height:450px;
+        margin: 10px 20px;
+       
+    }
+    .service-sec .circle{
+        width: 50px;
+        height: 50px;
+    }
+
+    .project-sec .card .img{
+        width: 50px;
+        height: 50px;
+    }
+    .service-sec .circle .img{
+        width: 35px;
+        height: 35px;
+    }
+    .card-btn{
+        font-size: 15px;
+    }
+
+    .email .img{   
+    width: 25px;
+    height: 25px;
+    }
+    .card-class
+    {
+        overflow-x: hidden;
+    }
+
+    .wav2 svg {
+        position: relative;
+        display: block;
+        width: calc(122% + 1.3px);
+        height: 70px;
+    }
+
+    .contact-me-sec .sub-heading{
+        margin-top: 50px;
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+
+
+   
+
+}
+
+@media only screen and (max-width: 1200px)
+{
+    .service-sec div{
+        
+        flex-direction: column;
+     }
+
+     .card{
+        width: auto;
+        margin: 20px 20px;
+    }
+    .project-sec div{
+        
+        flex-direction: column;
+     }
+
+}
+
+@media only screen and (max-width: 1300px)
+{
+    .card{
+        width: auto;
+        margin: 20px 20px;
+    }
+    
+    .project-sec .card{
+        margin: 10px 20px;
+    }
+}
+
+@media only screen and (max-width: 365px)
+{
+    .project-sec .card{
+        height:550px;
+       
+    }
+
+    .img{
+        width: 240px;
+        height: 240px;
+     }
+
+    .email  .img{
+        width: 20px;
+        height: 20px;
+        margin: 0px 10px;
+    }
+
+    .wav2 svg {
+        position: relative;
+        display: block;
+        width: calc(122% + 1.3px);
+        height: 70px;
+    }
+    .card{
+        width: auto;
+        margin: 20px 10px;
+    }
+
+    .project-sec .card{
+        margin: 20px 10px;
+    }
+
+    .contact-me-sec .sub-heading{
+        margin-top: 50px;
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+
+ 
+   
+}
+
+@media only screen and (max-width: 285px)
+{
+  .email div{
+      width: 380px;
+
+  }
+  .email div .para-text{
+      font-size: 10px;
+  }
+
+  .project-sec .card{
+      height: 600px;
+  }
+
+  .img{
+    width: 240px;
+    height: 240px;
+ }
+
+}
+
+
+
