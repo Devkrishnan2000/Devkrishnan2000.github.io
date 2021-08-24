@@ -179,9 +179,6 @@ nav{
     color: #005CF8;
 }
 
-.card-class{
-  
-}
 
 .service-sec{
     padding-top: 30px;
@@ -275,7 +272,7 @@ nav{
 .about2-sec div  .card{
     width: 800px;
     height: 200px;
-    background-color:#005CF8 ;
+    background-color:#005CF8;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -549,6 +546,10 @@ nav{
         flex-direction: column;
      }
 
+     .about2-sec .main-head{
+        font-size: 48px;
+    }
+
 }
 
 @media only screen and (max-width: 1300px)
@@ -594,6 +595,9 @@ nav{
 
     .project-sec .card{
         margin: 20px 10px;
+    }
+    .about2-sec .main-head{
+        font-size: 48px;
     }
 
     .contact-me-sec .sub-heading{
