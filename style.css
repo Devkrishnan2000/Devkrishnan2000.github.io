@@ -6,6 +6,10 @@
     
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 
 #unfloated-container{
     width: 1000px;
@@ -28,7 +32,7 @@ nav{
     position:fixed;
     padding:  50px,10px;
     width: 100%;
-    z-index: 9999
+    z-index: 9999;
    
      
 }
@@ -117,6 +121,7 @@ nav{
     color: black;
 
 }
+
 
 .about-me-sec{
     background-color: #005CF8;
@@ -441,7 +446,6 @@ nav{
   
      .nav-list.active{
          display: flex;
-         background-color: black;
      }
 
      .service-sec div{
